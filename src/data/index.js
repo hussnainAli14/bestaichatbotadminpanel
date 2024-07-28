@@ -7,3 +7,10 @@ export const headItems = [
   "Date",
   "Actions",
 ];
+
+export const adminDetails = [
+  {
+    email: "dudinak@gmail.com",
+    password: "123456",
+  },
+];
