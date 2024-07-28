@@ -43,6 +43,8 @@ const TableBody = ({ setLoading, setUpdateFlag, users }) => {
           <Column content={user.name} />
           <Column content={user.email} />
           <Column content={user.status} />
+          <Column content={user.userType} />
+
           <Column content={user.totalSpent} />
           <Column content={user.lastMonthSpent} />
           <Column content={user.date} />
@@ -110,6 +112,7 @@ const Table = () => {
             email: user[1],
             totalSpent: 0,
             lastMonthSpent: 0,
+            userType: "User 1",
             date: Date.now(),
             status: user[2] ? user[2] : "approved",
           }));

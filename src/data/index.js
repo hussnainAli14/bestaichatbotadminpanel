@@ -2,6 +2,7 @@ export const headItems = [
   "Name",
   "Email",
   "Status",
+  "User Type",
   "Total Spend $",
   "Last 30 days spent $",
   "Date",

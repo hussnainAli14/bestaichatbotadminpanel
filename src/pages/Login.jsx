@@ -18,7 +18,7 @@ const Login = ({ setItemInLocalStorage }) => {
     }
   };
   return (
-    <div className="flex flex-col items-center justify-center gap-10 pt-32">
+    <div className="flex flex-col items-center justify-center max-w-6xl mx-auto gap-10 pt-32">
       <h1 className="text-black text-2xl font-mono ">Login</h1>
       <div className="flex flex-col gap-10 border-solid border-2 border-black rounded-xl w-1/2 p-5 ">
         <input
